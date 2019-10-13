@@ -1,0 +1,14 @@
+/* ------------------ Primary Menu ------------------ */
+.region-primary-menu ul {
+  float: right;
+  background-color: #800000;
+  border-radius: 20px;
+}
+
+.region-primary-menu #block-casu-main-menu ul > li > a {
+  background: transparent;
+  color: #fff;
+  :active {
+    background-color: #fff;
+  }
+}

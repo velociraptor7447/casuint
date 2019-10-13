@@ -1,0 +1,6 @@
+global-styling:
+  version: VERSION
+  css:
+    components:
+      css/components/header.css: {}
+      css/components/primary_menu.css: {}

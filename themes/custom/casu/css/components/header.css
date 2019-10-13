@@ -1,0 +1,14 @@
+/* ------------------ Header ------------------ */
+#page #header {
+  background-color: #ffcc99;
+  border-color: #ffcc99;
+  background-image: none;
+  padding: 5px;
+}
+
+#page #header img {
+  height: 102px;
+  max-width: 102px;
+  width: 100%;
+  border-radius: 10px;
+}
