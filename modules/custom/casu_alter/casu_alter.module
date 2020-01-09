@@ -1,0 +1,15 @@
+<?php
+
+/**
+ * @file
+ * Alter forms.
+ */
+
+/**
+ * Implements hook_form_alter().
+ */
+function casu_alter_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id) {
+  if ($form_id == 'contact_message_contactez_nous_form') {
+
+  }
+}

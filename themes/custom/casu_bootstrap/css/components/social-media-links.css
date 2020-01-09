@@ -1,0 +1,36 @@
+section.block-social-media-links ul li a span {
+  color: white;
+}
+
+section.block-social-media-links ul li a span:hover {
+  color: #ffff00;
+}
+
+@media (min-width: 768px) {
+  section.block-social-media-links {
+    float: right;
+  }
+
+  .block-social-media-links ul.social-media-links--platforms {
+    font-size: 9px;
+    margin-bottom: 0px;
+    position: relative;
+    top: 12px;
+  }
+
+  .block-social-media-links ul.social-media-links--platforms > li:first-child{
+    padding-right: 10px;
+    padding-left: 16px;
+  }
+
+  .block-social-media-links ul.social-media-links--platforms > li:last-child {
+    padding-left: 10px;
+  }
+}
+
+@media (max-width: 767px) {
+  #block-socialmedialinks-3 ul {
+    margin-top: 8px;
+    margin-bottom: -2px;
+  }
+}

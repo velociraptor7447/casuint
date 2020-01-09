@@ -1,0 +1,179 @@
+.view-frontpage.view-id-frontpage {
+  display: none;
+}
+
+#block-views-block-slogan-block-1 {
+  background-color: #00284d;
+  font-family: TradeGothicLT-BoldCondTwenty,HelveticaNeue-CondensedBold,"Franklin Gothic Medium",sans-serif;
+  border-radius: 4px;
+  font-weight: 400;
+  text-align: center;
+  font-style: italic;
+  position: relative;
+  top: -16px;
+  color: white;
+}
+
+#block-views-block-slogan-block-1 span h1 {
+  font-size: 26px;
+}
+
+#block-views-block-slogan-block-1 p {
+  font-style: normal;
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+#block-views-block-slogan-block-1 .views-field-title {
+  padding-bottom: 18px;
+}
+
+#block-views-block-bureau-block-1,
+#block-views-block-projets-block-1,
+#block-views-block-contact-block-1, .casu-icon {
+  display: inline-block;
+}
+
+#block-views-block-bureau-block-1 {
+  background-image: url('/themes/custom/casu_bootstrap/images/casu-bureau.svg');
+  height: 128px;
+  width: 106px;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 20px;
+}
+
+#block-views-block-bureau-block-1 .views-field {
+  width: 130px;
+  position: relative;
+  top: 150px;
+  padding: 8px 14px;
+  border-radius: 20px;
+  border: 1px solid #595959;
+}
+
+#block-views-block-bureau-block-1 .views-field:hover {
+  background-color: #00284d;
+}
+
+#block-views-block-bureau-block-1 .views-field:hover a {
+  color: #ffff00;
+  text-decoration: none;
+}
+
+#block-views-block-bureau-block-1 .views-field a {
+  color: black;
+  text-transform: uppercase;
+  font-family: TradeGothicLT-BoldCondTwenty,HelveticaNeue-CondensedBold,"Franklin Gothic Medium",sans-serif;
+}
+
+#block-views-block-projets-block-1 {
+  background-image: url('/themes/custom/casu_bootstrap/images/casu-projets.svg');
+  height: 128px;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 20px;
+}
+
+#block-views-block-projets-block-1 .views-field {
+  width: 130px;
+  position: relative;
+  top: 150px;
+  padding: 8px 14px;
+  border-radius: 20px;
+  border: 1px solid #595959;
+}
+
+#block-views-block-projets-block-1 .views-field:hover {
+  background-color: #00284d;
+}
+
+#block-views-block-projets-block-1 .views-field:hover a {
+  color: #ffff00;
+  text-decoration: none;
+}
+
+#block-views-block-projets-block-1 .views-field a {
+  color: black;
+  text-transform: uppercase;
+  font-family: TradeGothicLT-BoldCondTwenty,HelveticaNeue-CondensedBold,"Franklin Gothic Medium",sans-serif;
+}
+
+#block-views-block-contact-block-1 {
+  background-image: url('/themes/custom/casu_bootstrap/images/casu-contact.svg');
+  height: 128px;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 20px;
+}
+
+#block-views-block-contact-block-1 .views-field {
+  width: 130px;
+  position: relative;
+  top: 150px;
+  padding: 8px 14px;
+  border-radius: 20px;
+  border: 1px solid #595959;
+}
+
+#block-views-block-contact-block-1 .views-field:hover {
+  background-color: #00284d;
+}
+
+#block-views-block-contact-block-1 .views-field:hover a {
+  color: #ffff00;
+  text-decoration: none;
+}
+
+#block-views-block-contact-block-1 .views-field a {
+  color: black;
+  text-transform: uppercase;
+  font-family: TradeGothicLT-BoldCondTwenty,HelveticaNeue-CondensedBold,"Franklin Gothic Medium",sans-serif;
+}
+
+.region.region-content {
+  text-align: center;
+}
+
+#casu-bureau {
+  float: left;
+  margin-left: 60px;
+}
+
+#casu-contact {
+  float: right;
+  margin-right: 60px;
+}
+
+@media (max-width: 767px) {
+  #casu-bureau {
+    margin-left: 0px;
+  }
+  #casu-contact {
+    margin-right: 0px;
+  }
+}
+
+@media (max-width: 530px) {
+  #block-views-block-bureau-block-1,
+  #block-views-block-projets-block-1,
+  #block-views-block-contact-block-1 {
+    height: 85px;
+  }
+
+  #block-views-block-bureau-block-1 .views-field,
+  #block-views-block-projets-block-1 .views-field,
+  #block-views-block-contact-block-1 .views-field {
+    top: 93px;
+    width: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-overflow: ellipsis;
+  }
+
+  #block-views-block-bureau-block-1 .views-field a,
+  #block-views-block-projets-block-1 .views-field a,
+  #block-views-block-contact-block-1 .views-field a {
+    font-size: 12px;
+  }
+}

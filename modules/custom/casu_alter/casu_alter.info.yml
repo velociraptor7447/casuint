@@ -1,0 +1,6 @@
+name: CASU Alter
+type: module
+description: Alters for the CASU Site
+package: CASU Custom
+core: 8.x
+version: 8.x-1.0-beta1

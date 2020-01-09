@@ -1,0 +1,18 @@
+<?php
+
+/**
+ * @file
+ * Bootstrap sub-theme.
+ *
+ * Place your custom PHP code in this file.
+ */
+
+ /**
+ * Implements hook_page_attachments_alter().
+ */
+function casu_bootstrap_page_attachments_alter(&$attachments) {
+  $current_path = \Drupal::service('path.current')->getPath();
+  if (\Drupal::service('path.matcher')->isFrontPage() || ($current_path == '/bureau') || ($current_path == '/contact/contactez_nous')) {
+    $attachments['#attached']['library'][] = 'casu_bootstrap/framework';
+  }
+}

@@ -1,0 +1,74 @@
+@media (max-width: 767px) {
+  .view-bureau-full-view {
+    display: none;
+  }
+
+  #block-views-block-bureau-full-view-responsive-block-1 .views-row {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-bottom: 1px double #595959;
+  }
+
+  #block-views-block-bureau-full-view-responsive-block-1 .views-field {
+    margin-top: 7px;
+    margin-bottom: 7px;
+  }
+
+  #block-views-block-bureau-full-view-responsive-block-1 .views-field-user-picture img {
+    margin: auto;
+    height: 200px;
+    max-width: 200px;
+  }
+}
+
+@media (min-width: 768px) {
+  #block-views-block-bureau-full-view-responsive-block-1 {
+    display: none;
+  }
+
+  .view-bureau-full-view .views-field-user-picture img {
+    margin: auto;
+    max-width: 200px;
+    height: 200px;
+    border-radius: 4px;
+  }
+
+  .view-bureau-full-view {
+    border-radius: 4px;
+  }
+
+  .table-casu > thead > tr > th, .table-casu > tbody > tr > th,
+  .table-casu > tfoot > tr > th, .table-casu > thead > tr > td,
+  .table-casu > tfoot > tr > td {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+  }
+
+  .table-casu {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .table-casu > tbody > tr > td {
+    vertical-align: center;
+    padding: 8px;
+    line-height: 1.42857143;
+    border: 1px solid #ddd;
+  }
+
+  .view-bureau-full-view td.views-field-user-picture {
+    width: 300px;
+  }
+}
+
+.views-field.views-field-field-casu-name,
+.views-field.views-field-field-casu-email {
+  font-weight: bold;
+}
+
+.views-field.views-field-field-casu-role {
+  font-style: italic;
+}

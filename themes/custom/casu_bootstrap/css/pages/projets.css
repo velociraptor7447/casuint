@@ -1,0 +1,35 @@
+.view-projets-full-view .views-field-field-image img {
+  margin: auto;
+}
+
+.view-projets-full-view .views-field {
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+
+.casu-page-projets.views-row {
+  margin-bottom: 30px;
+  border: 0.5px inset #e7e7e7;
+  border-radius: 4px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.casu-page-projets .views-field-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.casu-page-projets .views-field-body {
+  text-align: justify;
+}
+
+@media (max-width: 480px) {
+  .casu-page-projets .views-field-body {
+    display: block;
+    width: 100px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+}
