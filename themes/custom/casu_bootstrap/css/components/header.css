@@ -49,11 +49,11 @@
     top: -22px;
   }
 
-  #block-casu-bootstrap-main-menu ul.navbar-nav li {
+  #block-casu-bootstrap-main-menu ul.navbar-nav > li {
     border-top: 1px solid white;
   }
 
-  #block-casu-bootstrap-main-menu ul.navbar-nav li > a {
+  #block-casu-bootstrap-main-menu ul.navbar-nav > li > a {
     color: white;
     padding-top: 12px;
     padding-bottom: 12px;
@@ -66,15 +66,38 @@
     color: #ffff00;
   }
 
-  #block-casu-bootstrap-main-menu ul.navbar-nav li.active > a{
+  #block-casu-bootstrap-main-menu ul.navbar-nav > li.active > a {
     color: #ffff00;
     background-color: #1977a6;
+  }
+
+  #block-casu-bootstrap-main-menu ul.navbar-nav li.open > a {
+    background-color: transparent;
+  }
+
+  #block-casu-bootstrap-main-menu ul.navbar-nav li ul.dropdown-menu {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  #block-casu-bootstrap-main-menu ul.navbar-nav li ul.dropdown-menu > li {
+    background-color: #f3f3f3;
+  }
+
+  #block-casu-bootstrap-main-menu ul.navbar-nav li ul.dropdown-menu > li > a {
+    color: #1977a6;
   }
 
   .navbar-default .navbar-header .navbar-toggle {
     position: relative;
     top: 14px;
   }
+}
+
+#block-casu-bootstrap-main-menu ul.navbar-nav li ul.dropdown-menu > li > a.is-active {
+  text-decoration: underline;
+  color: #1977a6;
+  background-color: transparent;
 }
 
 .region.region-navigation .logo.navbar-btn {
@@ -87,5 +110,4 @@
 .region.region-navigation .logo img {
   height: 77px;
   width: 85px;
-  border-radius: 3px 0px 0px 3px;
 }
