@@ -1,0 +1,20 @@
+uuid: 0b8dd855-15b4-4248-8ac8-5f9473421c20
+langcode: en
+status: true
+dependencies:
+  theme:
+    - casu_toplite
+_core:
+  default_config_hash: GFyMdh3L5YY0fywKXywZo2a0A7Y1DdlLNeIaYSVj5tU
+id: casu_toplite_local_actions
+theme: casu_toplite
+region: content
+weight: -7
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,17 @@
+uuid: ec603afc-81a9-4ac5-98a3-ca70a0d7f1b8
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Gallery
+type: gallery
+description: 'A collection of images'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

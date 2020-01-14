@@ -1,0 +1,15 @@
+uuid: 7d051123-6706-4da3-880c-6befe99a997d
+langcode: en
+status: true
+dependencies: {  }
+name: slider2
+label: 'Slider2 (750x350)'
+effects:
+  93ecc0a3-ded5-4dc7-8800-917725d3241e:
+    uuid: 93ecc0a3-ded5-4dc7-8800-917725d3241e
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 750
+      height: 350
+      anchor: center-center

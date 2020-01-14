@@ -1,0 +1,20 @@
+uuid: 02b2a4be-6464-43cb-b7aa-61879dc25515
+langcode: en
+status: true
+dependencies:
+  theme:
+    - casu_toplite
+_core:
+  default_config_hash: QUnHVPunTJuRM0_WwSTMSburSfQbiRjm5wKUcLF2kVE
+id: casu_toplite_page_title
+theme: casu_toplite
+region: content
+weight: -7
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: a4efedf3-cfed-48c4-933b-1a5e10e4c0f0
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - casu_toplite
+_core:
+  default_config_hash: jydIliGw5xlbNepZNqPUPPSPSf4eMJeNpVU4mZsOWhw
+id: casu_toplite_content
+theme: casu_toplite
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

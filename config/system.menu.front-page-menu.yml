@@ -1,0 +1,8 @@
+uuid: 5f8689ea-4690-424b-9bc9-31ebb229a139
+langcode: en
+status: true
+dependencies: {  }
+id: front-page-menu
+label: 'Front Page Menu'
+description: ''
+locked: false

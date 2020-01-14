@@ -1,0 +1,22 @@
+uuid: 38d75831-5225-426a-b6f5-3977ed306b6c
+langcode: en
+status: true
+dependencies:
+  theme:
+    - casu_toplite
+_core:
+  default_config_hash: sevcDqFJw63e8rTDRlYIU8R9zZx--Xmg_gBKcqOpvEM
+id: casu_toplite_local_tasks
+theme: casu_toplite
+region: content
+weight: -7
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

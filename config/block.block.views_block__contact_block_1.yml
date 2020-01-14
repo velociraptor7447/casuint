@@ -1,0 +1,30 @@
+uuid: bb0f72c8-316a-4aa5-8672-422fb590f36a
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.contact
+  module:
+    - system
+    - views
+  theme:
+    - casu_bootstrap
+id: views_block__contact_block_1
+theme: casu_bootstrap
+region: content
+weight: -7
+provider: null
+plugin: 'views_block:contact-block_1'
+settings:
+  id: 'views_block:contact-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

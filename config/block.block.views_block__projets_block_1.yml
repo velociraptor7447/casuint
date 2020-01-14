@@ -1,0 +1,30 @@
+uuid: 820f8f58-b42d-4ac2-b771-232a5b051d42
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.projets
+  module:
+    - system
+    - views
+  theme:
+    - casu_bootstrap
+id: views_block__projets_block_1
+theme: casu_bootstrap
+region: content
+weight: -6
+provider: null
+plugin: 'views_block:projets-block_1'
+settings:
+  id: 'views_block:projets-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

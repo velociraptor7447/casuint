@@ -25,155 +25,115 @@
 }
 
 #block-views-block-slogan-block-1 .views-field-title {
-  padding-bottom: 18px;
+  padding-bottom: 12px;
 }
 
-#block-views-block-bureau-block-1,
-#block-views-block-projets-block-1,
-#block-views-block-contact-block-1, .casu-icon {
-  display: inline-block;
-}
-
-#block-views-block-bureau-block-1 {
-  background-image: url('/themes/custom/casu_bootstrap/images/casu-bureau.svg');
-  height: 128px;
-  width: 106px;
-  background-position: center;
-  background-repeat: no-repeat;
-  margin-bottom: 20px;
-}
-
-#block-views-block-bureau-block-1 .views-field {
-  width: 130px;
-  position: relative;
-  top: 150px;
-  padding: 8px 14px;
-  border-radius: 20px;
-  border: 1px solid #595959;
-}
-
-#block-views-block-bureau-block-1 .views-field:hover {
-  background-color: #00284d;
-}
-
-#block-views-block-bureau-block-1 .views-field:hover a {
-  color: #ffff00;
-  text-decoration: none;
-}
-
-#block-views-block-bureau-block-1 .views-field a {
-  color: black;
-  text-transform: uppercase;
-  font-family: TradeGothicLT-BoldCondTwenty,HelveticaNeue-CondensedBold,"Franklin Gothic Medium",sans-serif;
-}
-
-#block-views-block-projets-block-1 {
-  background-image: url('/themes/custom/casu_bootstrap/images/casu-projets.svg');
-  height: 128px;
-  background-position: center;
-  background-repeat: no-repeat;
-  margin-bottom: 20px;
-}
-
-#block-views-block-projets-block-1 .views-field {
-  width: 130px;
-  position: relative;
-  top: 150px;
-  padding: 8px 14px;
-  border-radius: 20px;
-  border: 1px solid #595959;
-}
-
-#block-views-block-projets-block-1 .views-field:hover {
-  background-color: #00284d;
-}
-
-#block-views-block-projets-block-1 .views-field:hover a {
-  color: #ffff00;
-  text-decoration: none;
-}
-
-#block-views-block-projets-block-1 .views-field a {
-  color: black;
-  text-transform: uppercase;
-  font-family: TradeGothicLT-BoldCondTwenty,HelveticaNeue-CondensedBold,"Franklin Gothic Medium",sans-serif;
-}
-
-#block-views-block-contact-block-1 {
-  background-image: url('/themes/custom/casu_bootstrap/images/casu-contact.svg');
-  height: 128px;
-  background-position: center;
-  background-repeat: no-repeat;
-  margin-bottom: 20px;
-}
-
-#block-views-block-contact-block-1 .views-field {
-  width: 130px;
-  position: relative;
-  top: 150px;
-  padding: 8px 14px;
-  border-radius: 20px;
-  border: 1px solid #595959;
-}
-
-#block-views-block-contact-block-1 .views-field:hover {
-  background-color: #00284d;
-}
-
-#block-views-block-contact-block-1 .views-field:hover a {
-  color: #ffff00;
-  text-decoration: none;
-}
-
-#block-views-block-contact-block-1 .views-field a {
-  color: black;
-  text-transform: uppercase;
-  font-family: TradeGothicLT-BoldCondTwenty,HelveticaNeue-CondensedBold,"Franklin Gothic Medium",sans-serif;
-}
-
-.region.region-content {
-  text-align: center;
-}
-
-#casu-bureau {
-  float: left;
-  margin-left: 60px;
-}
-
-#casu-contact {
-  float: right;
-  margin-right: 60px;
-}
-
-@media (max-width: 767px) {
-  #casu-bureau {
-    margin-left: 0px;
-  }
-  #casu-contact {
-    margin-right: 0px;
-  }
-}
-
-@media (max-width: 530px) {
+@media (min-width: 680px) {
   #block-views-block-bureau-block-1,
   #block-views-block-projets-block-1,
   #block-views-block-contact-block-1 {
-    height: 85px;
+    margin-top: 69px;
   }
 
-  #block-views-block-bureau-block-1 .views-field,
-  #block-views-block-projets-block-1 .views-field,
-  #block-views-block-contact-block-1 .views-field {
-    top: 93px;
-    width: 100px;
+  #block-views-block-projets-block-1 {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #block-views-block-bureau-block-1 {
+    float: left;
+    margin-left: 60px;
+  }
+
+  #block-views-block-contact-block-1 {
+    float: right;
+    margin-right: 60px;
+  }
+
+  .region.region-content {
+    text-align: center;
+  }
+}
+
+.casu-bureau, .casu-projets, .casu-contact {
+  margin-top: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 123px;
+  text-transform: uppercase;
+  color: black;
+  font-weight: 700;
+  border-radius: 4px;
+}
+
+.casu-bureau {
+  border: 1px solid orange;
+}
+
+.casu-projets {
+  border: 1px solid #1977a6;
+  position: relative;
+  right: 12px;
+}
+
+.casu-contact {
+  border: 1px solid #ffd633;
+  position: relative;
+  right: 12px;
+}
+
+.casu-bureau:hover, .casu-projets:hover, .casu-contact:hover {
+  background-color: #dadada;
+}
+
+.views-field-nothing:hover a  {
+  text-decoration: none;
+}
+
+svg.fa-users {
+  color: orange;
+}
+
+svg.fa-drafting-compass {
+  color: #1977a6;
+}
+
+svg.fa-envelope-open-text {
+  color: #ffd633;
+}
+
+@media (max-width: 679px) {
+  .casu-bureau, .casu-projets, .casu-contact {
+    display: none;
+  }
+
+  #block-views-block-bureau-block-1,
+  #block-views-block-projets-block-1,
+  #block-views-block-contact-block-1 {
     padding-top: 10px;
     padding-bottom: 10px;
-    text-overflow: ellipsis;
+    text-align: center;
+    border-radius: 4px;
+    margin-top: 3px;
+    margin-bottom: 3px;
   }
 
-  #block-views-block-bureau-block-1 .views-field a,
-  #block-views-block-projets-block-1 .views-field a,
-  #block-views-block-contact-block-1 .views-field a {
-    font-size: 12px;
+  #block-views-block-bureau-block-1 {
+    border: 1px solid orange;
+  }
+  #block-views-block-projets-block-1 {
+    border: 1px solid #1977a6;
+  }
+  #block-views-block-contact-block-1 {
+    border: 1px solid #ffd633;
+  }
+
+  .views-field-nothing .fa-7x {
+    font-size: 5em;
+  }
+
+  .views-col.clearfix {
+    width: 100%;
   }
 }

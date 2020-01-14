@@ -1,0 +1,22 @@
+uuid: e885e1e8-0324-4af6-a2ee-dbd7fc498920
+langcode: en
+status: false
+dependencies:
+  module:
+    - search
+  theme:
+    - casu_bootstrap
+_core:
+  default_config_hash: za-39d5WDUg6XvbyqSnuVYEeq6QM4qKJxW8MnoAha5A
+id: casu_bootstrap_search
+theme: casu_bootstrap
+region: sidebar_first
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: visible
+visibility: {  }

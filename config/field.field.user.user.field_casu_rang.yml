@@ -1,0 +1,24 @@
+uuid: 0c56e69d-a7ec-4e59-a12e-ef2663354316
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_casu_rang
+  module:
+    - user
+id: user.user.field_casu_rang
+field_name: field_casu_rang
+entity_type: user
+bundle: user
+label: 'Casu Rang'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

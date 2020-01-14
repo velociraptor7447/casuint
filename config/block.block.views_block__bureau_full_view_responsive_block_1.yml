@@ -1,0 +1,30 @@
+uuid: d1491e49-5eb6-45d4-bb16-e4c604ba80ca
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.bureau_full_view_responsive
+  module:
+    - system
+    - views
+  theme:
+    - casu_bootstrap
+id: views_block__bureau_full_view_responsive_block_1
+theme: casu_bootstrap
+region: content
+weight: -4
+provider: null
+plugin: 'views_block:bureau_full_view_responsive-block_1'
+settings:
+  id: 'views_block:bureau_full_view_responsive-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /bureau
+    negate: false
+    context_mapping: {  }

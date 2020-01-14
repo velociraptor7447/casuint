@@ -1,0 +1,21 @@
+uuid: 2fada1a1-8ab2-469c-bed7-61b2b3b822b0
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+id: user.field_casu_name
+field_name: field_casu_name
+entity_type: user
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

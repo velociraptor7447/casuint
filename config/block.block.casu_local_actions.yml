@@ -1,0 +1,20 @@
+uuid: 215ca246-d0d6-4092-ab33-38a2a4ab8524
+langcode: en
+status: false
+dependencies:
+  theme:
+    - casu
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: casu_local_actions
+theme: casu
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

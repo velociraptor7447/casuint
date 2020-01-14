@@ -1,0 +1,22 @@
+uuid: 9cad8dd3-9693-4baa-bdcb-8b00e0d14293
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - casu_toplite
+_core:
+  default_config_hash: yNbqAreoRuQOt876TeH6QNhxBpmCufT6rgHMYvjM_HE
+id: casu_toplite_search
+theme: casu_toplite
+region: sidebar_first
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: visible
+visibility: {  }

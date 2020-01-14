@@ -1,0 +1,20 @@
+uuid: 70692d83-43fd-4ac9-b193-f6e287c3fe92
+langcode: en
+status: false
+dependencies:
+  theme:
+    - casu_bootstrap
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: casu_bootstrap_page_title
+theme: casu_bootstrap
+region: content
+weight: -3
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

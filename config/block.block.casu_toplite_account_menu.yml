@@ -1,0 +1,27 @@
+uuid: 083913f7-5ac1-41a6-8861-321ce9117a26
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - casu_toplite
+_core:
+  default_config_hash: DhPozdBxEsje598N40FUr0e8xhPWHTb3KFqzrp1IvrI
+id: casu_toplite_account_menu
+theme: casu_toplite
+region: sidebar_first
+weight: -6
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 1
+  expand_all_items: false
+visibility: {  }

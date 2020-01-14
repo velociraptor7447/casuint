@@ -1,0 +1,14 @@
+uuid: c19899c6-efcf-4fdd-901e-5fd224dc933d
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.executive
+  module:
+    - user
+id: user_add_role_action.executive
+label: 'Add the Executive role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: executive

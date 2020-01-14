@@ -1,0 +1,22 @@
+uuid: c0e7746f-3df4-4a20-9cd4-6d4da4108c03
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - casu_bootstrap
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: casu_bootstrap_messages
+theme: casu_bootstrap
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,27 @@
+uuid: eec267cf-abb0-4556-898e-045df0ef34a1
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.tools
+  module:
+    - system
+  theme:
+    - casu_toplite
+_core:
+  default_config_hash: tifYT-jbMq3OjmjGWfQJ-a4a051SWgaa4c4-7grpefY
+id: casu_toplite_tools
+theme: casu_toplite
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'system_menu_block:tools'
+settings:
+  id: 'system_menu_block:tools'
+  label: Tools
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

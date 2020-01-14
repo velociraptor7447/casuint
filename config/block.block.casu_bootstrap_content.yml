@@ -1,0 +1,22 @@
+uuid: 890b3f61-c906-4ab0-ac4a-dc5a2a39b2ef
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - casu_bootstrap
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: casu_bootstrap_content
+theme: casu_bootstrap
+region: content
+weight: -5
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

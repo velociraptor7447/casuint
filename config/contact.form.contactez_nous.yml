@@ -1,0 +1,12 @@
+uuid: 61e0863b-81e9-435a-aef5-dc1e4e244044
+langcode: en
+status: true
+dependencies: {  }
+id: contactez_nous
+label: Contactez-nous
+recipients:
+  - casuinternational@gmail.com
+reply: ''
+weight: 0
+message: 'Merci de nous avoir contactés. Nous répondrons à votre message dans un bref délai.'
+redirect: ''

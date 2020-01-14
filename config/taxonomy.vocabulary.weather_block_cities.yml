@@ -1,0 +1,8 @@
+uuid: d43b1caa-fd24-446e-ac06-35bf1e18fee3
+langcode: en
+status: true
+dependencies: {  }
+name: 'Weather cities'
+vid: weather_block_cities
+description: null
+weight: 0

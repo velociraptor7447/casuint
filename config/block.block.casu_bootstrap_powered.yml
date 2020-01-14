@@ -1,0 +1,22 @@
+uuid: 33d2a772-e617-4c66-b264-9d34c31c4361
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - casu_bootstrap
+_core:
+  default_config_hash: jQQUUWN2Uxr5qZtc9zcJKBCxpKY8orN1u2HPqYYRQDI
+id: casu_bootstrap_powered
+theme: casu_bootstrap
+region: footer
+weight: -7
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

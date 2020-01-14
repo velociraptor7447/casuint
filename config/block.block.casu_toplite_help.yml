@@ -1,0 +1,22 @@
+uuid: 5a8d3bb9-34ce-47a2-826c-64959326defd
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - casu_toplite
+_core:
+  default_config_hash: v-7YibBPwUvUjMjh0aG4sIY4I-B_l0_3cUKXa77OBIU
+id: casu_toplite_help
+theme: casu_toplite
+region: content
+weight: -7
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

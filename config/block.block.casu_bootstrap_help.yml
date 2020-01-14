@@ -1,0 +1,22 @@
+uuid: 50c9b744-346b-45f2-9b05-a6a154bafb08
+langcode: en
+status: false
+dependencies:
+  module:
+    - help
+  theme:
+    - casu_bootstrap
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: casu_bootstrap_help
+theme: casu_bootstrap
+region: content
+weight: -1
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,27 @@
+uuid: 0447e745-acc9-420a-971e-58401bb9138e
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - casu_toplite
+_core:
+  default_config_hash: sI2RMoHMs_hOzRySpw2ii-YvQqYu3iVd_vVtxICt-Xs
+id: casu_toplite_breadcrumbs
+theme: casu_toplite
+region: sidebar_first
+weight: -6
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: true
+    context_mapping: {  }

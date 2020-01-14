@@ -1,0 +1,112 @@
+uuid: e7f8eebc-ffed-48cc-9c56-46087fab4b20
+langcode: en
+status: true
+dependencies:
+  module:
+    - social_media_links
+  theme:
+    - casu
+id: socialmedialinks
+theme: casu
+region: header
+weight: 0
+provider: null
+plugin: social_media_links_block
+settings:
+  id: social_media_links_block
+  label: 'Social Media Links'
+  provider: social_media_links
+  label_display: visible
+  platforms:
+    youtube_channel:
+      value: ''
+      description: ''
+      weight: '-10'
+    vimeo:
+      value: ''
+      description: ''
+      weight: '-9'
+    tumblr:
+      value: ''
+      description: ''
+      weight: '-8'
+    youtube:
+      value: casu-youtube
+      description: 'Suivez-nous sur Youtube'
+      weight: '-7'
+    vkontakte:
+      value: ''
+      description: ''
+      weight: '-6'
+    instagram:
+      value: ''
+      description: ''
+      weight: '-5'
+    twitter:
+      value: casu-twitter
+      description: 'Suivez-nou sur Twitter'
+      weight: '-4'
+    github:
+      value: ''
+      description: ''
+      weight: '-3'
+    facebook:
+      value: casu-facebook
+      description: 'Suivez-nous sur Facebook'
+      weight: '-2'
+    email:
+      value: ''
+      description: ''
+      weight: '-1'
+    flickr:
+      value: ''
+      description: ''
+      weight: '0'
+    googleplus:
+      value: ''
+      description: ''
+      weight: '1'
+    slideshare:
+      value: ''
+      description: ''
+      weight: '2'
+    contact:
+      value: ''
+      description: ''
+      weight: '3'
+    behance:
+      value: ''
+      description: ''
+      weight: '4'
+    linkedin:
+      value: ''
+      description: ''
+      weight: '5'
+    pinterest:
+      value: ''
+      description: ''
+      weight: '6'
+    rss:
+      value: ''
+      description: ''
+      weight: '7'
+    bitbucket:
+      value: ''
+      description: ''
+      weight: '8'
+    drupal:
+      value: ''
+      description: ''
+      weight: '9'
+  appearance:
+    orientation: h
+    show_name: 0
+  link_attributes:
+    target: '<none>'
+    rel: '<none>'
+  iconset:
+    style: 'fontawesome:2x'
+    installed_iconsets:
+      fontawesome:
+        examples: ''
+visibility: {  }

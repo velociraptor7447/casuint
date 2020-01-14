@@ -1,0 +1,22 @@
+uuid: f5690910-b808-4c7c-a80c-02a9b78ac166
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - casu_toplite
+_core:
+  default_config_hash: E3xTRbhOf-3DCuZ6-s1Rsw-axXRUAzFZ2_QQdvgUfaI
+id: casu_toplite_powered
+theme: casu_toplite
+region: sidebar_first
+weight: -7
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

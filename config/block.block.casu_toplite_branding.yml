@@ -1,0 +1,25 @@
+uuid: d99f60dd-10d0-4f2d-80c6-fe9078c2fa52
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - casu_toplite
+_core:
+  default_config_hash: H91oU_o9dFRUYaP1PfB9MzsjA2iseDraBm3gFFgLQZ0
+id: casu_toplite_branding
+theme: casu_toplite
+region: sidebar_first
+weight: -6
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

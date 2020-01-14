@@ -1,0 +1,22 @@
+uuid: 9894546b-a427-437d-aa76-9395cc66eea7
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - casu_toplite
+_core:
+  default_config_hash: 0-uMM5koZSYsGh3gRTwoRANZfAellLzuli5OdgNOEEI
+id: casu_toplite_messages
+theme: casu_toplite
+region: sidebar_first
+weight: -6
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }
