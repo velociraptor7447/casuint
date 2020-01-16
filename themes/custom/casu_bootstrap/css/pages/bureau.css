@@ -3,6 +3,10 @@
     display: none;
   }
 
+  #block-views-block-bureau-full-view-responsive-block-1 .views-col.col-1 {
+    text-align: center;
+  }
+  
   #block-views-block-bureau-full-view-responsive-block-1 .views-row {
     margin-top: 25px;
     margin-bottom: 25px;

@@ -34,3 +34,13 @@ section.block-social-media-links ul li a span:hover {
     margin-bottom: -2px;
   }
 }
+
+@media (min-width: 768px) and (max-width: 990px) {
+  .block-social-media-links ul.social-media-links--platforms > li:last-child {
+    padding-left: 5px;
+  }
+
+  .block-social-media-links ul.social-media-links--platforms > li:first-child{
+    padding-right: 7px;
+    padding-left: 8px;
+  }

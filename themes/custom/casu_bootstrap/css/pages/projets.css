@@ -24,11 +24,40 @@
   text-align: justify;
 }
 
-@media (max-width: 480px) {
+.img-responsive {
+  border-radius: 4px;
+}
+
+/*@media (max-width: 480px) {
   .casu-page-projets .views-field-body {
     display: block;
     width: 100px;
     text-align: center;
     width: 100%;
   }
+}*/
+
+@media (max-width: 767px) {
+  .view-projets-full-view .table-casu td {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+  }
+
+  .view-projets-full-view .table-casu td.views-field-field-image {
+    padding-left: 5px;
+  }
+
+  .casu-page-projets .views-field-title {
+    font-size: 14px;
+  }
+}
+
+/* Page individuelle */
+.field.field--name-field-image.field--type-image {
+  display: inline-block;
+}
+
+.field.field--name-body {
+  text-align: justify;
 }
