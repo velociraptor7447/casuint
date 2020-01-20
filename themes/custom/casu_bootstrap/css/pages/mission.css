@@ -1,26 +1,29 @@
-.field.field--name-body {
+.page-node-type-page .field.field--name-body {
   font-family: TradeGothicLT-BoldCondTwenty,HelveticaNeue-CondensedBold,"Franklin Gothic Medium",sans-serif;
 }
 
-.field.field--name-body h2 {
+.page-node-type-page .field.field--name-body h2 {
   text-align: center;
 }
 
-.field.field--name-body p,
-.field.field--name-body li,
-.field.field--name-body h5 {
+.page-node-type-page .field.field--name-body p,
+.page-node-type-page .field.field--name-body li,
+.page-node-type-page .field.field--name-body h5 {
   font-size: 17px;
 }
 
-.field.field--name-body > h2:first-child {
+.page-node-type-page .field.field--name-body > h2:first-child {
   color: orange;
 }
 
-.field.field--name-body > h2:nth-child(4) {
+.page-node-type-page .field.field--name-body > h2:nth-child(4) {
   color: #1977a6;
 }
 
-.field.field--name-body p:last-child {
+.page-node-type-page .field.field--name-body p:last-child {
   text-align: center;
+}
+
+.fa-hands-helping {
   color: #ffd633;
 }
