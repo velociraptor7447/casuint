@@ -10,6 +10,7 @@ framework:
       css/pages/bureau.css: {}
       css/pages/projets.css: {}
       css/pages/mission.css: {}
+      css/global/html.css: {}
   js:
     js/front-page.js: {}
     js/bureau-view.js: {}

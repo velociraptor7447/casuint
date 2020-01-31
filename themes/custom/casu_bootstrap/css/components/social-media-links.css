@@ -35,7 +35,11 @@ section.block-social-media-links ul li a span:hover {
   }
 }
 
-@media (min-width: 768px) and (max-width: 990px) {
+@media (min-width: 768px) and (max-width: 992px) {
+  section#block-socialmedialinks-3 {
+    left: -247px;
+    top: 0px;
+  }
   .block-social-media-links ul.social-media-links--platforms > li:last-child {
     padding-left: 5px;
   }

@@ -1,3 +1,12 @@
 .field-content img {
   border-radius: 4px;
 }
+
+.flexslider {
+  border: none;
+}
+
+.flex-control-paging li a {
+  width: 7px;
+  height: 7px;
+}

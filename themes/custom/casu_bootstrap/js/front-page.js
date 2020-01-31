@@ -2,7 +2,7 @@
   Drupal.behaviors.frontPage = {
     attach: function (context, settings) {
       $(document).ready(function(){
-        $('.region.region-navigation .logo img').attr('src', '/themes/custom/casu_bootstrap/logo.jpg');
+      //  $('.region.region-navigation .logo img').attr('src', '/themes/custom/casu_bootstrap/logo.jpg');
 
         // This is a hack
         $('#block-views-block-bureau-block-1 .views-col.col-1').css('width', '100%');
